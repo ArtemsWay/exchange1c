@@ -1,0 +1,33 @@
+{
+  "name": "artemsway/exchange1c",
+  "description": "Package for exchange data with 1C.",
+  "authors": [
+    {
+      "name": "Artem Miroshnichenko",
+      "email": "artemsway@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ArtemsWay\\Exchange1C\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ArtemsWay\\Exchange1C\\Tests\\": "tests/src"
+    }
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ArtemsWay/parser1c"
+    }
+  ],
+  "require": {
+    "artemsway/parser1c": "v2.07.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
