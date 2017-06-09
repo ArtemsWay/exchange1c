@@ -13,7 +13,7 @@
 ],
 "require": {
 
-    "artemsway/exchange1c": "v2.07.x-dev"
+    "artemsway/exchange1c": "dev-master"
 },
 ```
 
