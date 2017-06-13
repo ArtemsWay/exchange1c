@@ -120,4 +120,14 @@ trait ModeTrait
 
         return $this->printStatus($response);
     }
+
+    /**
+     * @return string
+     */
+    public function modeDefault()
+    {
+        $response = $this->triggerEventCallback();
+
+        return $this->printStatus($response);
+    }
 }

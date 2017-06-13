@@ -93,7 +93,7 @@ class Exchange1C
         $method = "mode{$this->mode}";
 
         if (!method_exists($this, $method)) {
-            throw new \Exception("Неизвестный тип mode: $this->mode");
+            $method = 'modeDefault';
         }
 
         if ($this->mode !== 'checkauth' && !$this->access()) {
